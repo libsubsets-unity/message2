@@ -1,1 +1,1 @@
-# libunity-message2
+message2

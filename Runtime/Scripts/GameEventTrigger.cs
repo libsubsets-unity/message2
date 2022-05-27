@@ -17,7 +17,7 @@ namespace Subsets.Message2
                 if (Physics.Raycast(ray, out hit))
                 {
                     Transform objectHit = hit.transform;
-                    Debug.Log("GameEventTrigger" + objectHit.name);
+                    Debug.Log("GameEventTrigger: hit name is " + objectHit.name);
                     if (RaiseEvent)
                     {
                         RaiseEvent.Raise();
